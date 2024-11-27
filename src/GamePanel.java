@@ -120,7 +120,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             PowerUp powerUp = it.next();
             powerUp.moveLeft(); // Linksbewegung
 
-            // Überprüfung, ob das PowerUp auf einer Plattform ist
+            // Überprüfung, ob das PowerUp auf einer Plattform is
             boolean onPlatform = false;
             for (Platform platform : platforms) {
                 if (powerUp.getBounds().intersects(platform.getBounds())) {
